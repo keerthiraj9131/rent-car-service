@@ -9,7 +9,7 @@ const AboutSection = ({ aboutClass }) => {
       style={
         aboutClass === "aboutPage"
           ? { marginTop: "0px" }
-          : { marginTop: "280px", marginBottom: '80px' }
+          : { marginTop: "280px", marginBottom: "80px" }
       }
     >
       <Container>
@@ -54,8 +54,14 @@ const AboutSection = ({ aboutClass }) => {
           </Col>
 
           <Col lg="6" md="6">
-            <div style={{border: 'solid', height: '135%', width: "100%"}}>
-              
+            <div style={{ border: "solid", height: "135%", width: "100%" }}>
+              <iframe
+                sandbox="allow-same-origin"
+                title="CEME"
+                width="100%"
+                height="100%"
+                src="https://saran-proxy-dev.apps.csts.k8cnp-gl-1.r-caas.allstate.com"
+              ></iframe>
             </div>
           </Col>
         </Row>
